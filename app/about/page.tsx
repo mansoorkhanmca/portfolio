@@ -21,7 +21,7 @@ export default function About() {
     ]
     return (
         <BodyWrapper>
-            <div className="block p-4 text-2xl">
+            <div className="block p-4 text-2xl about">
                 Senior Full Stack Developer having 10+ Years of Experience in Web Development with the ability to create interactive
                 responsive Websites and Web Applications. And ability to deploy sites with DevOps tools and automate the
                 process using CI/CD pipelines. Seeking a challenging position of Senior Web Developer / AWS Cloud
@@ -29,7 +29,7 @@ export default function About() {
                 my skills.
             </div>
 
-            <ul className="p-4 text-xl list-disc ml-16">
+            <ul className="p-4 text-xl list-disc ml-10 about-points">
                 {myKnowledges.map((item: string,index: number)=> <li key={index}>{item}</li>)}
             </ul>
         </BodyWrapper>

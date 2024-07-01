@@ -38,18 +38,19 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="w-full flex">
           {
-            deviceWidth > 992 && <>
+            deviceWidth > 992 ? <>
               <div className="inline-block w-1/6 fixed side-nav">
                 <Header />
               </div>
               <div className="inline-block w-1/6 side-nav" >
               </div>
-            </>
+            </> :
+              <div className=" w-1/6 fixed side-nav overlay">
+                <Header />
+              </div>
           }
-          <div className=" w-1/6 fixed side-nav overlay">
-            <Header />
-          </div>
-          <div className={`inline-block ml-1 ${deviceWidth > 992 ? 'w-10/12' : 'w-full'}`}>
+
+          <div className={`inline-block ${deviceWidth > 992 ? 'w-10/12' : 'w-full'}`}>
             {children}
           </div>
         </div>

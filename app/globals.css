@@ -43,6 +43,7 @@ body {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
+  margin:10px;
   background-color: transparent;
   width: 300px;
   height: 400px;
@@ -115,11 +116,16 @@ body {
   display: var(--display-side-nav);
 }
 
+.designation{
+  display: inline-block; 
+  float:right;
+}
+
+
 @media only screen and (max-width: 992px) {
   .hide-ss{
     display: none;
   }
-
 }
 
 @media only screen and (min-width: 992px) {
@@ -129,4 +135,33 @@ body {
 }
 
 
+
+@media only screen and (max-width: 576px) {
+  .designation{
+    display: block; 
+    float:unset;
+  }
+
+  .degree{
+    font-size: large;
+  }
+
+  .about{
+    font-size: large;
+  }
+
+  .about-points{
+    font-size: medium;
+    margin-left: 10px;
+  }
+
+  .linked-in{
+    word-break: break-all;
+  }
+
+  .pdng{
+    padding:10px;
+    font-size: 75%;
+  }
+}
 

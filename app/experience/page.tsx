@@ -17,7 +17,7 @@ export default function Experience() {
                                 <Image className="inline-block" src={item.logo} width={30} height={30} alt="" />
                                 &nbsp; {item.companyName}
                             </h3>
-                            <h3 className="text-lg font-bold text-gray-800 inline-block float-right pb-5">
+                            <h3 className="text-lg font-bold text-gray-800 designation pb-5">
                                 {item.designation}
                             </h3>
                             <hr />

@@ -11,7 +11,7 @@ export default function Projects() {
                     return (<div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
-                                <div className="fcf mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80">
+                                <div className="fcf mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-70" >
                                     <div className="p-6">
                                         <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                                             {item.title}
@@ -24,7 +24,7 @@ export default function Projects() {
                                 </div>
                             </div>
                             <div className="flip-card-back">
-                                <div className="fcb mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80">
+                                <div className="fcb mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-70">
                                     <div className="p-6">
                                         <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                                             Platform

@@ -7,8 +7,8 @@ export default class Proj {
             platforms:["Angular 12", "Node JS", "Java 17", "Spring Boot","Docker","Dynamo DB","ECS"],
             resposibilities:"Creating Application from Scratch for both Front End and Back End",
             description:`The Book Submission Portal is a tool designed to streamline the final manuscript submission of a contractred 
-                        T&F book, as well as to improve the author experience during this process. It delights Authors and Editorial 
-                        colleagues alike by offering time savings and transparency during manuscript submission.`
+                        T&F book, as well as to improve the author experience during this process. It delights Authors and Editors 
+                        alike by offering time savings and transparency during submission.`
 
         },
         {

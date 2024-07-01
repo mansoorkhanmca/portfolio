@@ -6,7 +6,7 @@ import BodyWrapper from "../components/bodyWrapper";
 export default function Contact() {
     return (
         <BodyWrapper>
-            <div className="flex justify-center  items-center p-52">
+            <div className="flex justify-center  items-center p-52 pdng">
                 <table>
                     <tbody>
                         <tr>
@@ -19,7 +19,7 @@ export default function Contact() {
                         </tr>
                         <tr>
                             <th><FaLinkedin className="m-5 text-5xl " /></th>
-                            <th className="text-left text-teal-600 cursor-pointer"><a href="https://in.linkedin.com/in/mansoorkhanmca" target="_blank">https://in.linkedin.com/in/mansoorkhanmca</a></th>
+                            <th className="text-left text-teal-600 cursor-pointer linked-in"><a href="https://in.linkedin.com/in/mansoorkhanmca" target="_blank">https://in.linkedin.com/in/mansoorkhanmca</a></th>
                         </tr>
                     </tbody>
                 </table>
