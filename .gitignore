@@ -34,3 +34,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+/build
+/build-dev
+/build-uat
+/build-prod
+/coverage
+/dist
+/doc
+/logs
+/tmp
+/temp
+/e2e
+
+.git
+*.log
+launch.json
+vscode-*
+.scannerwork
