@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="flex justify-around" style={{ flexFlow: "row wrap" }}>
 
                 {projects.map((item: any, index: number) => {
-                    return (<div className="flip-card">
+                    return (<div className="flip-card" key={index.toString()}>
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
                                 <div className="fcf mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-70" >

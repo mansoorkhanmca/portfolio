@@ -10,7 +10,7 @@ export default function Experience() {
             <div className="flex flex-col justify-center  items-center">
 
                 {experience.map((item: any, index: number) => {
-                    return (<div className="flex flex-col bg-white border shadow-sm w-4/5 mb-16 ">
+                    return (<div className="flex flex-col bg-white border shadow-sm w-4/5 mb-16 " key={index.toString()}>
 
                         <div className="p-4 md:p-5">
                             <h3 className="text-lg font-bold text-gray-800 inline-block pb-5">

@@ -25,7 +25,7 @@ export default function Education() {
             <div className="flex flex-col justify-center  items-center">
 
                 {experience.map((item: any, index: number) => {
-                    return (<div className="flex flex-col bg-white border shadow-sm w-4/5 mb-16 mt-5">
+                    return (<div className="flex flex-col bg-white border shadow-sm w-4/5 mb-16 mt-5" key={index.toString()}>
 
                         <div className="p-4 md:p-5">
                             <h3 className="text-2xl font-bold text-gray-800 inline-block pb-5 degree">

@@ -11,7 +11,7 @@ export default function Skills() {
 
                 {skills.map((item: any, index: number) => {
                     return (
-                        <div className="border shadow-sm w-4/5 mb-16 bg-white">
+                        <div className="border shadow-sm w-4/5 mb-16 bg-white" key={index.toString()}>
                             <div className='text-4xl p-5'>
                                 {item.title}
 
