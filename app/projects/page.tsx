@@ -32,7 +32,7 @@ export default function Projects() {
                                         <div className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                                             <br />
                                             <ul>
-                                                {item.platforms.map((innerItem: string, indx: number) => <li>{innerItem}</li>)}
+                                                {item.platforms.map((innerItem: string, indx: number) => <li key={index.toString()}>{innerItem}</li>)}
                                             </ul>
                                         </div>
                                     </div>
