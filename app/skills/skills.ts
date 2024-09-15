@@ -125,8 +125,8 @@ export default class Skill {
                     logo: "oauth-2.png"
                 },
                 // {
-                //     skill: "Next Auth",
-                //     logo: "next-auth.png"
+                //     skill: "Spring Security",
+                //     logo: "spring-security.png"
                 // }
             ]
         },
