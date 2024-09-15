@@ -2,7 +2,7 @@ export default class Skill {
     static readonly list: Array<Object> = [
         {
             title: "JavaScript",
-            path: "/my-portfolio/assets/images/skills/javascript/",
+            path: "/portfolio/assets/images/skills/javascript/",
             skills: [
                 {
                     skill: "Angular",
@@ -34,7 +34,7 @@ export default class Skill {
         },
         {
             title: "Front End",
-            path: "/my-portfolio/assets/images/skills/front-end/",
+            path: "/portfolio/assets/images/skills/front-end/",
             skills: [
                 {
                     skill: "HTML 5",
@@ -60,7 +60,7 @@ export default class Skill {
         },
         {
             title: "Back End",
-            path: "/my-portfolio/assets/images/skills/back-end/",
+            path: "/portfolio/assets/images/skills/back-end/",
             skills: [
                 {
                     skill: "Java",
@@ -88,7 +88,7 @@ export default class Skill {
         },
         {
             title: "Database",
-            path: "/my-portfolio/assets/images/skills/database/",
+            path: "/portfolio/assets/images/skills/database/",
             skills: [
                 {
                     skill: "Mongo DB",
@@ -110,7 +110,7 @@ export default class Skill {
         },
         {
             title: "Security",
-            path: "/my-portfolio/assets/images/skills/security/",
+            path: "/portfolio/assets/images/skills/security/",
             skills: [
                 {
                     skill: "JWT",
@@ -132,7 +132,7 @@ export default class Skill {
         },
         {
             title: "Unit Test",
-            path: "/my-portfolio/assets/images/skills/unit-test/",
+            path: "/portfolio/assets/images/skills/unit-test/",
             skills: [
                 {
                     skill: "Jasmine",
@@ -154,7 +154,7 @@ export default class Skill {
         },
         {
             title: "DevOps",
-            path: "/my-portfolio/assets/images/skills/devops/",
+            path: "/portfolio/assets/images/skills/devops/",
             skills: [
                 {
                     skill: "Git",
@@ -184,7 +184,7 @@ export default class Skill {
         },
         {
             title: "Cloud",
-            path: "/my-portfolio/assets/images/skills/cloud/",
+            path: "/portfolio/assets/images/skills/cloud/",
             skills: [
                 // {
                 //     skill: "AWS",
@@ -214,7 +214,7 @@ export default class Skill {
         },
         {
             title: "AWS",
-            path: "/my-portfolio/assets/images/skills/aws/",
+            path: "/portfolio/assets/images/skills/aws/",
             skills: [
                 {
                     skill: "EC2",
