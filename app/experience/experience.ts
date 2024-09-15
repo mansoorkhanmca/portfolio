@@ -2,7 +2,7 @@ export default class Exp {
     static readonly list: Array<Object> = [
         {
             companyName: "Taylor & Francis",
-            logo: "/assets/images/tandf.png",
+            logo: "/my-portfolio/assets/images/tandf.png",
             designation: "Full Stack Engineer",
             aboutOrganization: `Taylor & Francis Group is an international company originating in England that publishes books and academic journals. 
                         Its parts include Taylor & Francis, CRC Press, Routledge, F1000 Research and Dovepress. 
@@ -11,7 +11,7 @@ export default class Exp {
         },
         {
             companyName: "Cisco",
-            logo: "/assets/images/cisco.png",
+            logo: "/my-portfolio/assets/images/cisco.png",
             designation: "Full Stack Engineer",
             aboutOrganization: `Cisco Systems, Inc. is an American multinational digital communications technology corporation headquartered 
             in San Jose, California. Cisco develops, manufactures, and sells networking hardware, software, telecommunications equipment and other high-technology services and products.`,
@@ -19,7 +19,7 @@ export default class Exp {
         },
         {
             companyName: "PwC",
-            logo: "/assets/images/pwc.png",
+            logo: "/my-portfolio/assets/images/pwc.png",
             designation: "Full Stack Engineer",
             aboutOrganization: `PricewaterhouseCoopers International Limited is a multinational professional services brand of firms, 
             operating as partnerships under the PwC brand. It is the second-largest professional services network in the world and 
@@ -28,7 +28,7 @@ export default class Exp {
         },
         {
             companyName: "RxPrism Health Systems",
-            logo: "/assets/images/rx.jpeg",
+            logo: "/my-portfolio/assets/images/rx.jpeg",
             designation: "Mobile Application Developer",
             aboutOrganization: `RxPrism specializes in AI-driven customer engagement and sales enablement solutions and services for global pharmaceutical, 
             biotech, BFSI, and other firms. Renowned for pioneering innovations, RxPrism holds multiple patents for its cutting-edge automation-centric offerings.`,
@@ -36,7 +36,7 @@ export default class Exp {
         },
         {
             companyName: "Smackcoders Technologies",
-            logo: "/assets/images/smackcoders.jpeg",
+            logo: "/my-portfolio/assets/images/smackcoders.jpeg",
             designation: "PHP Developer",
             aboutOrganization: `Smackcoders Technologies delivered 40+ great quality tools and Integrations. 
             They are specialized in the creation of Mobile Apps, Enterprise Application Software & Integration, eCommerce, 

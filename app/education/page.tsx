@@ -4,7 +4,7 @@ export default function Education() {
     const experience: Array<Object> = [
         {
             degree: "Master of Computer Application",
-            logo: "/assets/images/tandf.png",
+            logo: "/my-portfolio/assets/images/tandf.png",
             designation: "Full Stack Engineer",
             college: "Measi Institute of Information Technology",
             university: "University of Madras",
@@ -12,7 +12,7 @@ export default function Education() {
         },
         {
             degree: "Bachelor of Computer Application",
-            logo: "/assets/images/cisco.png",
+            logo: "/my-portfolio/assets/images/cisco.png",
             designation: "Full Stack Engineer",
             college: " St. John's College",
             university: "Manonmaniam Sundaranar University",
