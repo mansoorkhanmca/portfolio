@@ -2,7 +2,7 @@
 import BodyWrapper from "../components/bodyWrapper";
 export default function About() {
     const myKnowledges : Array<string>= [
-        '10+ years of total experience in web development with strong technical knowledge.',
+        '11+ years of total experience in web development with strong technical knowledge.',
         '7+ years of experience with Single Page Application and Back End Application Development.',
         '3+ Years of Experience in AWS Cloud Infrastructure and Cloud Development.',
         'Good Experience with Multiple Stacks like MEAN, MERN and Java Full Stack.',
@@ -22,11 +22,10 @@ export default function About() {
     return (
         <BodyWrapper>
             <div className="block p-4 text-2xl about">
-                Senior Full Stack Developer having 10+ Years of Experience in Web Development with the ability to create interactive
-                responsive Websites and Web Applications. And ability to deploy sites with DevOps tools and automate the
-                process using CI/CD pipelines. Seeking a challenging position of Senior Web Developer / AWS Cloud
-                Developer with (AWS / MEAN / MERN / Java Full Stack) technologies in a reputed organization where I can utilize and improve
-                my skills.
+            Senior Full Stack Developer having 11+ Years of Experience in Web Development with the ability to create interactive 
+            responsive Websites and Web Applications. Moreover, the ability to deploy sites with DevOps tools and automate the 
+            process using CI/CD pipelines. Seeking a challenging position as Senior Full Stack Engineer / AWS Cloud Developer with 
+            (AWS / MEAN / MERN) technologies in a reputed organization where I can utilize and improve my skills. 
             </div>
 
             <ul className="p-4 text-xl list-disc ml-10 about-points">

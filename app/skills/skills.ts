@@ -81,8 +81,8 @@ export default class Skill {
                     height:100
                 },
                 {
-                    skill: "Graph QL",
-                    logo: "graph-ql.png"
+                    skill: "Spring Cloud",
+                    logo: "spring-cloud-logo.png"
                 }
             ]
         },
@@ -98,10 +98,10 @@ export default class Skill {
                     skill: "My SQL",
                     logo: "mysql.jpg"
                 },
-                {
-                    skill: "Postgre SQL",
-                    logo: "postgres.png"
-                },
+                // {
+                //     skill: "Postgre SQL",
+                //     logo: "postgres.png"
+                // },
                 {
                     skill: "Redis",
                     logo: "redis.png"
@@ -124,10 +124,10 @@ export default class Skill {
                     skill: "OAuth 2",
                     logo: "oauth-2.png"
                 },
-                {
-                    skill: "Next Auth",
-                    logo: "next-auth.png"
-                }
+                // {
+                //     skill: "Next Auth",
+                //     logo: "next-auth.png"
+                // }
             ]
         },
         {
@@ -202,10 +202,10 @@ export default class Skill {
                     width:90,
                     height:100
                 },
-                {
-                    skill: "AWS CDK",
-                    logo: "aws-cdk.jpg"
-                },
+                // {
+                //     skill: "AWS CDK",
+                //     logo: "aws-cdk.jpg"
+                // },
                 {
                     skill: "Serverless",
                     logo: "serverless.jpg"
