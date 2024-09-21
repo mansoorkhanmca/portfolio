@@ -1,36 +1,53 @@
-
 import BodyWrapper from "../components/bodyWrapper";
 export default function About() {
-    const myKnowledges : Array<string>= [
-        '11+ years of total experience in web development with strong technical knowledge.',
-        '7+ years of experience with Single Page Application and Back End Application Development.',
-        '3+ Years of Experience in AWS Cloud Infrastructure and Cloud Development.',
-        'Good Experience with Multiple Stacks like MEAN, MERN and Java Full Stack.',
-        'Programming abilities across a range of technologies like Angular 17, React JS 18, Next JS 14 and etc...',
-        'Experience with different backend technnologies like Spring Boot 3, Spring Cloud, Node JS and Express JS.',
-        'Comprehensive understanding of and significant experience with Web Services and APIs.',
-        'Experience with Unit testing skills with Jasmine, karma and Junit5.',
-        'Strong understanding of version control (Git & GitHub)',
-        'Good knowledge and hands on experience on Linux based operating systems with bash scripting.',
-        'Docker image building, maintenance, orchestration with Kubernetes.',
-        'Experience with Microservices architecture with Docker container implementation.',
-        'Knowledge with Continuous Integration/Continuous Delivery tools - Jenkins Pipelines & GitHub Actions.',
-        'Experience in AWS multiple services & infrastructure creation with Terraform.',
-        'Experience in setting up and managing Web Architecture.',
-        'Ability to work in an agile remote team with task-based deliveries.'
-    ]
+    
     return (
         <BodyWrapper>
             <div className="block p-4 text-2xl about">
-                Senior Full Stack Developer having 11+ Years of Experience in Web Development with the ability to create interactive 
-                responsive Websites and Web Applications. Moreover, ability to deploy the web application with DevOps lastest tools and automate the 
-                process using CI/CD pipelines. Currenty working as Senior Full Stack Engineer / AWS Cloud Developer with 
-                (AWS / MEAN / MERN) technologies. 
+               <p> <span className="font-bold text-teal-600">Full Stack Developer</span> with over 11 years of experience in web development and a deep technical
+                expertise, I specialize in crafting dynamic, responsive web applications. 
+                <br/>My background includes:
+                </p><br/>
+                Extensive Experience:
+                <ul className="p-4 text-xl list-disc ml-10 about-points">
+                    <li>11+ years in web development with robust technical knowledge.</li>
+                    <li>7+ years focused on Single Page Applications (SPA) and backend development.</li>
+                    <li>3+ years of experience in AWS Cloud Infrastructure and Cloud AWS Development.</li>
+                </ul>
+                
+                Versatile Technology Stack:
+                <ul className="p-4 text-xl list-disc ml-10 about-points">
+                    <li>Proficient in <span className="font-semibold text-red-600">MEAN and MERN</span> stacks, as well as <span className="font-semibold text-blue-600">Java Full Stack</span> technologies.</li>
+                    <li>Programming skills in modern frameworks like <span className="font-semibold text-rose-400">Angular 17, React JS 18 and Next JS 14</span>.</li>
+                    <li>Backend experience with <span className="font-semibold text-purple-600">Spring Boot 3, Spring Cloud, Node.js and Epress.js</span>.</li>
+                    <li>Hands-on experience with AWS Lambda and <span className="font-semibold text-orange-600">Serverless</span> computing.</li>
+                </ul>
+                Advanced Technical Skills:
+                <ul className="p-4 text-xl list-disc ml-10 about-points">
+                    <li>Comprehensive understanding of Web Services and APIs with practical experience.</li>
+                    <li>Expertise in unit testing frameworks such as <span className="font-semibold text-orange-900">Jasmine, Karma, and JUnit5.</span></li>
+                    <li>Strong command of version control using <span className="font-semibold text-pink-600">Git and GitHub.</span></li>
+                    <li>Hands-on experience with <span className="font-semibold text-fuchsia-600">Linux</span> operating systems and <span className="font-semibold text-green-700">Bash scripting</span>.</li>
+                </ul>
+                
+                Containerization and Orchestration:
+                <ul className="p-4 text-xl list-disc ml-10 about-points">
+                    <li>Skilled in <span className="font-semibold text-violet-600">Docker</span> image building, maintenance, and orchestration with <span className="font-semibold text-indigo-600">Kubernetes</span>.</li>
+                    <li>Experience in implementing <span className="font-semibold text-sky-600">Microservices</span> Architecture with Docker containerization.</li>
+                </ul>
+                DevOps and CI/CD:
+                <ul className="p-4 text-xl list-disc ml-10 about-points">
+                    <li>Knowledgeable in CI/CD tools, including <span className="font-semibold text-lime-600">Jenkins Pipelines and GitHub Actions</span>.</li>
+                    <li>Proficient in <span className="font-semibold text-red-600">AWS</span> services and infrastructure management using <span className="font-semibold text-amber-600">Terraform</span>.</li>
+                    <li>Experience in setting up and managing robust <span className="font-semibold text-lime-700">Architectural Design</span>.</li>
+                </ul>
+                
+                Agile and Remote Collaboration:
+                <ul className="p-4 text-xl list-disc ml-10 about-points">
+                    <li>Proven ability to work effectively in an Agile remote team, delivering tasks on time.</li>
+                </ul>
             </div>
 
-            <ul className="p-4 text-xl list-disc ml-10 about-points">
-                {myKnowledges.map((item: string,index: number)=> <li key={index}>{item}</li>)}
-            </ul>
         </BodyWrapper>
-        );
+    );
 }

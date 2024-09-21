@@ -9,9 +9,13 @@ import { FiAward } from "react-icons/fi";
 import { PiGraduationCapBold } from "react-icons/pi";
 import { HiOutlineMail } from "react-icons/hi";
 import HeaderList from "./headerList";
+import { useRouter} from "next/navigation";
 
 export default function Header() {
-    
+const router = useRouter();
+    const navigateHomePage = () =>{
+        router.push('/');
+    }
     const listItems: Array<Object> = [
         {
             icon: IoPerson,
@@ -68,10 +72,13 @@ export default function Header() {
         <div className="p-10 shadow-[rgba(0,0,0,0.36)_2px_0px_5px_0px] h-screen">
             <div style={{ backgroundColor: "light-grey" }}>
 
-                <div className="text-xl text-center font-medium text-teal-600" style={{ fontFamily: 'sans-serif' }}>Mansoor Khan</div>
+                <div className="text-xl text-center font-medium text-teal-600 cursor-pointer" style={{ fontFamily: 'sans-serif' }}
+                onClick={()=>navigateHomePage()}>
+                    Mansoor Khan
+                </div>
                 <br/>
         
-                <div className="text-xs text-center font-bold">Full Stack Engineer</div>
+                <div className="text-xs text-center font-bold">Full Stack Developer</div>
                 <br/>
                 <br/>
             </div>
