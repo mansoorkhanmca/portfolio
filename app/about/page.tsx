@@ -42,10 +42,10 @@ export default function About() {
                     <li>Knowledge in setting up and managing robust <span className="font-semibold text-purple-600">Architectural Design</span>.</li>
                 </ul>
                 
-                Agile and Remote Collaboration:
+                {/* Agile and Remote Collaboration:
                 <ul className="p-4 text-xl list-disc ml-10 about-points">
                     <li>Proven ability to work effectively in an Agile remote team, delivering tasks on time.</li>
-                </ul>
+                </ul> */}
             </div>
 
         </BodyWrapper>

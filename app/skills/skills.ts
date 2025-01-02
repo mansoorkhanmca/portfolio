@@ -177,7 +177,7 @@ export default class Skill {
                     logo: "jenkins.png"
                 },
                 {
-                    skill: "NGINX",
+                    skill: "Nginx",
                     logo: "nginx.png"
                 }
             ]
