@@ -4,13 +4,13 @@ export default function About() {
     return (
         <BodyWrapper>
             <div className="block p-4 text-2xl about">
-               <p> <span className="font-bold text-teal-600">Full Stack Developer</span> with over 11 years of experience in web development and a deep technical
+               <p> <span className="font-bold text-teal-600">Full Stack Developer</span> with over 12 years of experience in web development and a deep technical
                 expertise, I specialize in crafting dynamic, responsive web applications. My expertise spans across both front-end and back-end technologies, allowing me to deliver end-to-end solutions that meet modern web standards.
                 </p><br/>
                 Extensive Experience:
                 <ul className="p-4 text-xl list-disc ml-10 about-points">
-                    <li>11+ years in web development with robust technical knowledge.</li>
-                    <li>7+ years focused on Single Page Applications (SPA) and backend development.</li>
+                    <li>12+ years in web development with robust technical knowledge.</li>
+                    <li>8+ years focused on Single Page Applications (SPA) and backend development.</li>
                     <li>3+ years of experience in creating AWS Cloud Infrastructure and AWS Cloud Development.</li>
                 </ul>
                 
